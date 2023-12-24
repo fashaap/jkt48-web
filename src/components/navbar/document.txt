@@ -1,0 +1,43 @@
+<Nav.Link className='nav-link_global ' href="/news">NEWS</Nav.Link>
+                                    <Nav.Link className='nav-link_global' href="/schedule">SCHEDULE</Nav.Link>
+                                    <Nav.Link className='nav-link_global' href="/member">MEMBER</Nav.Link>
+                                    <NavDropdown
+                                        title="THEATER"
+                                        id={`offcanvasNavbarDropdown-expand-${expand}`}
+                                    >
+                                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                                        <NavDropdown.Item href="#action4">
+                                            Another action
+                                        </NavDropdown.Item>
+                                        <NavDropdown.Divider />
+                                        <NavDropdown.Item href="#action5">
+                                            Something else here
+                                        </NavDropdown.Item>
+                                    </NavDropdown>
+                                    <NavDropdown
+                                        title="JKT48 POINTS"
+                                        id={`offcanvasNavbarDropdown-expand-${expand}`}
+                                    >
+                                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                                        <NavDropdown.Item href="#action4">
+                                            Another action
+                                        </NavDropdown.Item>
+                                        <NavDropdown.Divider />
+                                        <NavDropdown.Item href="#action5">
+                                            Something else here
+                                        </NavDropdown.Item>
+                                    </NavDropdown>
+                                    <NavDropdown
+                                        title="SHOP"
+                                        id={`offcanvasNavbarDropdown-expand-${expand}`}
+                                    >
+                                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                                        <NavDropdown.Item href="#action4">
+                                            Another action
+                                        </NavDropdown.Item>
+                                        <NavDropdown.Divider />
+                                        <NavDropdown.Item href="#action5">
+                                            Something else here
+                                        </NavDropdown.Item>
+                                    </NavDropdown>
+                                    <Nav.Link className='nav-link_global' href="/fanclub">FANCLUB</Nav.Link>
